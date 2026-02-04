@@ -1,4 +1,4 @@
-window.addEventListener("load", (event) => {
+/*window.addEventListener("load", (event) => {
 
     console.log("La page est complètement chargée");
 
@@ -7,4 +7,10 @@ window.addEventListener("load", (event) => {
         window.location.href = '/html/welcome.html';
       }, 6000);
 
-  });
+  });*/
+
+
+
+  window.addEventListener("click",()=>{
+    window.location.href = '/html/welcome.html';
+  })
