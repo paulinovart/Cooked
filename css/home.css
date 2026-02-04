@@ -1,0 +1,16 @@
+body{
+    background-color: #ff7205;
+    display: flex;
+    height: 100vh;
+}
+
+#home-logo{
+height: 180px;
+margin: auto;
+align-items: center;
+justify-content: center;
+}
+
+#home-logo img{ 
+    height: 100%;
+}
