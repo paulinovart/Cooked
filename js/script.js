@@ -4,6 +4,7 @@ window.addEventListener("load", (event) => {
 
     setTimeout(() => {
         console.log("Retardée de 6 secondes.");
+        window.location.href = '/html/welcome.html';
       }, 6000);
 
   });
