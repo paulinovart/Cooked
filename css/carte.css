@@ -1,6 +1,7 @@
 .footer-icon{
     list-style: none;
     text-decoration: none;
+    display: flex;
 
    
 }
@@ -15,6 +16,7 @@ body{
 #div-footer ul li img{
     width: 32px;
 height: 32px;
+margin: auto;
 }
 
 .footer-icon:hover{  
