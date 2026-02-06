@@ -51,6 +51,10 @@ previousBtn.addEventListener("click", () => {
         console.log(currentStep);
         updateDescription();
     }
+
+    if (currentStep == 0){
+        window.location.href = '/index.html';
+    }
 });
 
 
