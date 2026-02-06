@@ -3,7 +3,7 @@
     width: 90%;
     margin: auto ;
     position: absolute;
-    top: 20%;
+    top: 15%;
 
 }
 
@@ -92,10 +92,19 @@ border-width: 0px ;
 
 }
 
+.trait-divider{
+    height: 4px;
+    width: 70%;
+    background-color: #ff7205;
+    margin: 30px  auto;
+    border-radius: 5px;
+}
+
 .slider-explaination-step{
     width: 14px;
     height: 10px;
-    background-color: #FFD5B4;
+    /*background-color: #FFD5B4;*/
+    background-color: rgb(210, 210, 210);
     border: 0px;
 margin: auto;
 border-radius: 40%;
@@ -103,7 +112,8 @@ border-radius: 40%;
 
 .current-step{
     width: 30px ;
-    background-color: #ff7205;
+   /* background-color: #ff7205;*/
+   background-color: gray;
     border-radius: 20px;
 }
 

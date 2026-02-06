@@ -5,6 +5,7 @@ let pCurrentStep = document.querySelector(".p-welcome-steps");
 let currentimage = document.querySelector(".img-explaination-steps");
 let previousBtn = document.querySelector("#previous-btn");
 let sliderExplainationStep1 = document.querySelector("#slider-explaination-step-1");
+let traitDivider = document.querySelector(".trait-divider");
 let sliderExplainationStep2 = document.querySelector("#slider-explaination-step-2");
 let sliderExplainationStep3 = document.querySelector("#slider-explaination-step-3");
 
@@ -62,26 +63,38 @@ function updateDescription(){
         sliderExplainationStep1.classList.add("current-step");
         sliderExplainationStep2.classList.remove("current-step");
         sliderExplainationStep3.classList.remove("current-step");
+
 }
 
 else if (currentStep == 1) {
-    currentimage.src = "/images/toque.png";;
+    currentimage.src = "/images/toque-rouge.png";;
     h1CurrentStep.textContent = "Brisez la glace";
+    h1CurrentStep.style.color = "#DF0F00"
     pCurrentStep.textContent = "Relevez des défis culinaires collaboratifs. Pas besoin d'être un chef, l'important, c'est l'équipe !";
     sliderExplainationStep2.classList.add("current-step");
     sliderExplainationStep1.classList.remove("current-step");
     sliderExplainationStep3.classList.remove("current-step");
+     suivantBtn.style.backgroundColor = "#F5B7B2";
+    suivantBtn.style.color = "#DF0F00";
+    traitDivider.style.backgroundColor = "#DF0F00";
+
+
 
 
 }
 
 else if (currentStep == 2) {
-    currentimage.src = "/images/bol.png";;
+    currentimage.src = "/images/bol-vert.png";;
     h1CurrentStep.textContent = "Savourez l'instant";
+        h1CurrentStep.style.color = "#7DBA1A"
     pCurrentStep.textContent = " Dégustez votre création avec votre brigade et découvrez qui se cache derière vos partenaires de jeu.";
     sliderExplainationStep3.classList.add("current-step");
     sliderExplainationStep2.classList.remove("current-step");
     sliderExplainationStep1.classList.remove("current-step");
+       suivantBtn.style.backgroundColor = "#D8EABA";
+           suivantBtn.style.color = "#7DBA1A";
+           suivantBtn.textContent ="C'est parti !";
+               traitDivider.style.backgroundColor = "#7DBA1A";
 }
 
 }
