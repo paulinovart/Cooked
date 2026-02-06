@@ -12,5 +12,5 @@
 
 
   window.addEventListener("click",()=>{
-    window.location.href = '/html/welcome.html';
+    window.location.href = 'Cooked/html/welcome.html';
   })
